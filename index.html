@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Created by Behara Yerram Raju, Student Number: C0932207 -->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissful Breeze Humidifiers</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/contact.css"> -->
+    <link rel="icon" type="image/x-icon" href="img/humidifier2.png">
+    
+</head>
+
+<body>
+    <script src="./script.js"></script>
+    <div class="container">
+        <header>
+            <a href="#" onclick="navigateTo('home')">
+                <img src="img/logo2.png" alt="Blissful Breeze Humidifiers Logo" width="200" height="250">
+            </a>
+        </header>
+        <!-- <div class="mobile">
+            <nav>
+                <a href="./index.html" onclick="navigateTo('home')">Home</a> &nbsp; &nbsp;
+                <a href="./about.html" onclick="navigateTo('about')">About</a> &nbsp; &nbsp;
+                <a href="./specials.html" onclick="navigateTo('specials')">Specials</a> &nbsp; &nbsp;
+                <a href="./training.html" onclick="navigateTo('training')">Training</a> &nbsp; &nbsp;
+                <a href="./media.html" onclick="navigateTo('media')">Media</a> &nbsp; &nbsp;
+                <a href="./contact.html" onclick="navigateTo('contact')">Contact</a>
+            </nav>
+        </div> -->
+
+        <!-- Home Section -->
+        <main id="home">
+            <div id="hero" class="tablet-desktop">
+                <img class="banner" src="img/company_banner.png" alt="Blissful Breeze Humidifiers Banner">
+            </div>
+
+        <!-- Specials Section -->
+        <main id="specials" >
+            <section class="productofweek">
+                <h1>Product of the Week</h1>
+                <div>
+                    <img src="img/product_of_the_week.jpg" alt="Product of the Week" width="300" height="200">
+                    <p>Introducing our latest product: The UltraCool Humidifier. Designed to provide maximum comfort and relief, the UltraCool Humidifier is the perfect solution for dry indoor air. Order now and experience the blissful difference!</p>
+                </div>
+            </section>
+           
+        </main>
+
+        <!-- Contact Section  -->
+        <main id="contact" >
+           
+            <!-- Add this section to your existing HTML for the products and cart -->
+<main id="specials">
+    <section id="products">
+        <h2>Products</h2>
+        <div class="product" data-id="1" data-name="UltraCool Humidifier" data-price="99.99">
+            <img src="img/humidifier.png" alt="UltraCool Humidifier" width="150" height="150">
+            <h3>UltraCool Humidifier</h3>
+            <p>Price: $99.99</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <div class="product" data-id="2" data-name="QuietFlow Humidifier" data-price="79.99">
+            <img src="img/weekly_sale_item1.jpg" alt="QuietFlow Humidifier" width="150" height="150">
+            <h3>QuietFlow Humidifier</h3>
+            <p>Price: $79.99</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+        <div class="product" data-id="3" data-name="EasyClean Humidifier" data-price="59.99">
+            <img src="img/weekly_sale_item2.jpg" alt="EasyClean Humidifier" width="150" height="150">
+            <h3>EasyClean Humidifier</h3>
+            <p>Price: $59.99</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+        <!-- Add more products as needed -->
+    </section>
+
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </div>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+    <!-- Cart Section -->
+   
+</main>
+
+            <div id="contact-info">
+                <h1>Contact us today!</h1>
+                <h2>Ready for your free consultation? Contact us today.</h2>
+                <h3>Call us: (814)555-9608</h3>
+                <h3>Email us: <a href="mailto:blissfulbreezehumidifiers.com">blissfulbreezehumidifiers.com</a></h3>
+                <h3>Visit us at: 1226 Wellington St, Ottawa, ON K1Y 3A1</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Copyright 2099. All Rights Reserved.<br>
+                <a href="mailto:info@blissfulbreezehumidifiers.com">Request information</a><br> Behara Yerram Raju &nbsp; &nbsp; C0932207
+            </p>
+        </footer>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
